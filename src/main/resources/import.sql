@@ -1,0 +1,21 @@
+INSERT INTO maker(id, name) VALUES(1, 'Asus');
+INSERT INTO maker(id, name) VALUES(2, 'Lenovo');
+INSERT INTO maker(id, name) VALUES(3, 'Hewlett-Packard');
+INSERT INTO maker(id, name) VALUES(4, 'Samsung');
+INSERT INTO maker(id, name) VALUES(5, 'Seagate');
+INSERT INTO maker(id, name) VALUES(6, 'Crucial');
+INSERT INTO maker(id, name) VALUES(7, 'GigaByte');
+INSERT INTO maker(id, name) VALUES(8, 'Huawei');
+INSERT INTO maker(id, name) VALUES(9, 'Xiaomi');
+
+INSERT INTO product(id, name, price, id_maker) VALUES(1, 'Disco duro', 86.99, 5);
+INSERT INTO product(id, name, price, id_maker) VALUES(2, 'Memoria RAM', 120, 6);
+INSERT INTO product(id, name, price, id_maker) VALUES(3, 'Disco SSD', 150.99,4);
+INSERT INTO product(id, name, price, id_maker) VALUES(4, 'GeForce rtx', 755, 7);
+INSERT INTO product(id, name, price, id_maker) VALUES(5, 'GeForce gtx 1080', 185,7);
+INSERT INTO product(id, name, price, id_maker) VALUES(6, 'Monitor 35', 202, 1);
+INSERT INTO product(id, name, price, id_maker) VALUES(7, 'Monitor 65', 559, 1);
+INSERT INTO product(id, name, price, id_maker) VALUES(8, 'Portatil hp1', 444, 2);
+INSERT INTO product(id, name, price, id_maker) VALUES(9, 'Portatil hp2', 59.99, 2);
+INSERT INTO product(id, name, price, id_maker) VALUES(10, 'Impresora hp1', 245.99, 3);
+INSERT INTO product(id, name, price, id_maker) VALUES(11, 'Impresora hp2', 180, 3);
